@@ -18,7 +18,7 @@
 [Importing repos to Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/repos/git/import-git-repository?view=azure-devops)
 
 * Application repo - [angular-hello-world](https://github.com/siva11psk/angular-hello-world)  
-* GitOps repo - [k8-gitops](https://github.com/siva11psk/k8-gitops)
+* GitOps repo - [k8s-gitops](https://github.com/siva11psk/k8s-gitops)
 
 Note - Import the repos with the same names for the pipelines to work without additional changes
 
@@ -32,7 +32,7 @@ The application repo has the .pipelines folder containiing the below pipelines
 ### Pipeline  updates
 
 * Add variables to the CI pipeline
-    * REPOISTORY - {THE DOCKER IMAGE REPO} #Example - sivakumarendava/angular-hello-world
+    * REPOSITORY - {THE DOCKER IMAGE REPO} #Example - sivakumarendava/angular-hello-world
     * REGISTRY_PASSWORD - {THE DOCKER REGISTRY PASSWORD}
     * REGISTRY_USER - {THE DOCKER USERNAME}
 
